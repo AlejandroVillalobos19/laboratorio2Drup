@@ -1,0 +1,40 @@
+uuid: 20f90205-1ea2-465f-a6b5-a74bc9f49cc3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.recepies_.body
+    - field.field.node.recepies_.field_cook_time
+    - field.field.node.recepies_.field_difficultad
+    - field.field.node.recepies_.field_ingredients
+    - field.field.node.recepies_.field_lenguage_de_cocina
+    - field.field.node.recepies_.field_medios
+    - node.type.recepies_
+  module:
+    - text
+    - user
+id: node.recepies_.teaser
+targetEntityType: node
+bundle: recepies_
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_cook_time: true
+  field_difficultad: true
+  field_ingredients: true
+  field_lenguage_de_cocina: true
+  field_medios: true

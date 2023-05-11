@@ -1,0 +1,29 @@
+uuid: 94e4af41-a23e-4a74-b38f-2a5e1576b8a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lenguage_de_cocina
+    - node.type.recepies_
+    - taxonomy.vocabulary.lenguage_de_cocina
+id: node.recepies_.field_lenguage_de_cocina
+field_name: field_lenguage_de_cocina
+entity_type: node
+bundle: recepies_
+label: 'Lenguage de Cocina'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      lenguage_de_cocina: lenguage_de_cocina
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

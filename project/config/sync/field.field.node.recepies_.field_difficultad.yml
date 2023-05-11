@@ -1,0 +1,21 @@
+uuid: fba8b8cf-be68-4ac3-8a56-2d8b97749df4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_difficultad
+    - node.type.recepies_
+  module:
+    - options
+id: node.recepies_.field_difficultad
+field_name: field_difficultad
+entity_type: node
+bundle: recepies_
+label: Difficultad
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

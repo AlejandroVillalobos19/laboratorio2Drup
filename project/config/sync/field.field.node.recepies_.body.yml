@@ -1,0 +1,23 @@
+uuid: 6468673e-524a-45cd-a34e-fa93b2d59e64
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.recepies_
+  module:
+    - text
+id: node.recepies_.body
+field_name: body
+entity_type: node
+bundle: recepies_
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

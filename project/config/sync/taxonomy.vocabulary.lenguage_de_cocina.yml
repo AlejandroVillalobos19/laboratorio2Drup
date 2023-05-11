@@ -1,0 +1,8 @@
+uuid: c42ad022-253f-4bb7-8cba-2a9e145499fe
+langcode: en
+status: true
+dependencies: {  }
+name: 'Lenguage de Cocina'
+vid: lenguage_de_cocina
+description: ''
+weight: 0

@@ -1,0 +1,20 @@
+uuid: 38a9e94c-bea3-4b9d-b1e2-fc31d164041c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_lenguage_de_cocina
+field_name: field_lenguage_de_cocina
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
