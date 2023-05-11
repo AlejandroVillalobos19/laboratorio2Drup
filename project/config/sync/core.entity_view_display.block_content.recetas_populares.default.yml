@@ -1,0 +1,27 @@
+uuid: 0711e04c-6784-4a3c-b2b2-1d5ca5f4a8ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.recetas_populares
+    - field.field.block_content.recetas_populares.field_recetas_populares
+  module:
+    - link
+id: block_content.recetas_populares.default
+targetEntityType: block_content
+bundle: recetas_populares
+mode: default
+content:
+  field_recetas_populares:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

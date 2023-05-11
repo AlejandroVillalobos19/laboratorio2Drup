@@ -1,0 +1,33 @@
+uuid: c2f5c1fa-9e6e-4acc-9a14-cc43cf9de142
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:recetas_populares:0f5ac75b-bd6e-4a25-b639-812fae5d638c'
+  module:
+    - block_content
+    - node
+  theme:
+    - olivero
+id: recetasparaverano
+theme: olivero
+region: social
+weight: -8
+provider: null
+plugin: 'block_content:0f5ac75b-bd6e-4a25-b639-812fae5d638c'
+settings:
+  id: 'block_content:0f5ac75b-bd6e-4a25-b639-812fae5d638c'
+  label: 'Recetas para Verano'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      recepies_: recepies_

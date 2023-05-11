@@ -1,0 +1,30 @@
+uuid: 9c613b71-645e-4607-9b14-114a2e553890
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:recetas_populares:bab02257-8627-480d-b5be-c82666c9515e'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: linksrecetas
+theme: olivero
+region: social
+weight: -9
+provider: null
+plugin: 'block_content:bab02257-8627-480d-b5be-c82666c9515e'
+settings:
+  id: 'block_content:bab02257-8627-480d-b5be-c82666c9515e'
+  label: 'Links recetas'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: ''

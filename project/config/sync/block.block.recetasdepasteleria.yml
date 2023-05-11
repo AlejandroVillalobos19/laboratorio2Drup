@@ -1,0 +1,41 @@
+uuid: 3f443ca4-ee98-4ba7-bf9e-5d2bcd0a0a62
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e02a6fd5-d35e-48d2-9728-989e7fd6554d'
+  module:
+    - block_content
+    - node
+    - taxonomy
+  theme:
+    - olivero
+id: recetasdepasteleria
+theme: olivero
+region: social
+weight: -7
+provider: null
+plugin: 'block_content:e02a6fd5-d35e-48d2-9728-989e7fd6554d'
+settings:
+  id: 'block_content:e02a6fd5-d35e-48d2-9728-989e7fd6554d'
+  label: 'Recetas de Pasteleria'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      recepies_: recepies_
+  'entity_bundle:taxonomy_term':
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    context_mapping:
+      taxonomy_term: '@taxonomy_term.taxonomy_term_route_context:taxonomy_term'
+    bundles:
+      lenguage_de_cocina: lenguage_de_cocina
