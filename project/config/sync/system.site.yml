@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: d4736a2b-f45b-473c-9d82-9d33cf862675
+name: 'Demo Site Alejandro'
+mail: admin@example.com
+slogan: 'Future Developer'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
