@@ -1,0 +1,29 @@
+uuid: 47e6163f-5c7a-4a64-9b71-e3e6eaa125fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_curso_por_carrera
+    - node.type.carrera_
+    - node.type.curso
+id: node.curso.field_curso_por_carrera
+field_name: field_curso_por_carrera
+entity_type: node
+bundle: curso
+label: 'Curso por carrera'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      carrera_: carrera_
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
