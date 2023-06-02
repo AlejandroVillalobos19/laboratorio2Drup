@@ -1,0 +1,20 @@
+uuid: f5206eb1-92b9-4f76-a6b3-c88152e37fe4
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - node
+id: node.field_archivo_
+field_name: field_archivo_
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

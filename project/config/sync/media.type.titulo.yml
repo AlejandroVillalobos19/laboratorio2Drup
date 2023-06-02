@@ -1,0 +1,13 @@
+uuid: 2998c428-c53a-4fbe-9d1a-c143eb1d92f2
+langcode: en
+status: true
+dependencies: {  }
+id: titulo
+label: PDF
+description: 'Solo se pueden subir PDF'
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_file
+field_map: {  }

@@ -1,0 +1,8 @@
+uuid: 0db889cc-a954-4cf8-8362-7f726c7c1d06
+langcode: en
+status: true
+dependencies: {  }
+name: 'Licencia de Contenido'
+vid: licencia_de_contenido
+description: ''
+weight: 0

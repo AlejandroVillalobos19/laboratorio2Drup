@@ -1,0 +1,29 @@
+uuid: f81a342f-2f3c-430a-8f4b-ae68ae6a2774
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_archivo_
+    - media.type.titulo
+    - node.type.prueba_de_contenido
+id: node.prueba_de_contenido.field_archivo_
+field_name: field_archivo_
+entity_type: node
+bundle: prueba_de_contenido
+label: 'Archivo '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      titulo: titulo
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

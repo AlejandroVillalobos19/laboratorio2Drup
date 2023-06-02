@@ -1,10 +1,10 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: d4736a2b-f45b-473c-9d82-9d33cf862675
-name: 'Demo Site Alejandro'
-mail: admin@example.com
-slogan: 'Future Developer'
+uuid: 6cc7c9ea-db1a-41d3-a44b-a8085ab41226
+name: 'lab 2'
+mail: alefakemail@gmail.com
+slogan: ''
 page:
   403: ''
   404: ''

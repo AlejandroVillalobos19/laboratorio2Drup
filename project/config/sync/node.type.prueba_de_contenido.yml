@@ -1,0 +1,18 @@
+uuid: 3f93ec4e-e66e-4c70-94a9-49daf31c42cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Prueba de Contenido'
+type: prueba_de_contenido
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
