@@ -6,7 +6,7 @@ This is a [Drupal via DDEV](https://github.com/drud/ddev) template configured fo
 
 Click the button below to start a new development environment:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/AlejandroVillalobos19/baseproject3)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/AlejandroVillalobos19/laboratorio2Drup)
 
 ## Get Started With Your Own Project
 
